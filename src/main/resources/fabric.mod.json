@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "elytra-only-cape-option",
+	"version": "${version}",
+	"name": "Elytra Only Cape Option",
+	"description": "Adds option to skin settings to turn the cape on only when Elytra is equipped.",
+	"authors": [
+		"Varrna"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/elytra-only-cape-option/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.varrna.elytraonlycapeoption.ElytraOnlyCapeOption"
+		],
+		"client": [
+			"net.varrna.elytraonlycapeoption.ElytraOnlyCapeOptionClient"
+		],
+		"fabric-datagen": [
+			"net.varrna.elytraonlycapeoption.ElytraOnlyCapeOptionDataGenerator"
+		]
+	},
+	"mixins": [
+		"elytra-only-cape-option.mixins.json",
+		{
+			"config": "elytra-only-cape-option.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
