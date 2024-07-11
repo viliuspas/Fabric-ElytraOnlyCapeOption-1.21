@@ -1,11 +1,11 @@
 {
-	"required": true,
-	"package": "net.varrna.elytraonlycapeoption.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
-		"ExampleClientMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "net.varrna.elytraonlycapeoption.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SkinOptionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
