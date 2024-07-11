@@ -14,7 +14,7 @@ This option is enabled in the skin customization menu.
 ***
 ## Instalation
 
-Download the **elytra-only-cape-option.jar** file from this repository.
+Download [elytra-only-cape-option.jar](https://github.com/viliuspas/Fabric-ElytraOnlyCapeOption-1.21/raw/master/elytra-only-cape-option-0.1.0-1.21.jar) file from this repository.
 
 Download [Fabric API](https://modrinth.com/mod/fabric-api).
 
