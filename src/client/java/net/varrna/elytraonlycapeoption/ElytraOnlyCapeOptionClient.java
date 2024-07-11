@@ -13,7 +13,7 @@ import net.minecraft.network.message.ChatVisibility;
 import java.util.Arrays;
 
 public class ElytraOnlyCapeOptionClient implements ClientModInitializer {
-	private static CapeOption capeOption;
+	private static CapeOption capeOption = CapeOption.ELYTRA_ONLY;
 	@Override
 	public void onInitializeClient() {
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
